@@ -24,8 +24,8 @@ async function getData(url) {
 
         gameContainer.innerHTML += `<div class="game">
                                         <h3>Name: ${games[i].name}</h3> 
-                                        <p>Rating: ${games[i].rating}</p> 
-                                        <p>Tags: ${games[i].tags.length}</p>
+                                        <p>Rating: <strong>${games[i].rating}</strong></p> 
+                                        <p>Tags: <strong>${games[i].tags.length}</strong></p>
                                         </div>`
     }
 }
